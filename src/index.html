@@ -67,24 +67,21 @@
         <div class="col-md-6 col-sm-12">
           <div class="about-wrapper__info load-hidden">
             <p class="about-wrapper__info-text">
-              I am 30 years old and have been working in Networking for about 8 years now until recent
-              opportunities presented themselves and I was able to dual role at my job as a Network Engineer
-              and Software Engineer. What does that mean? Since the beginning of 2022, I have been working alongside
-              a small team of Engineers learning how to program and write/debug code. My current role is to
-              work as a Software Developer full time and when our company fields equipment, I will fly out with them
-              as the Network Engineer.
+              I am 31 years old and have been working in Networking for 9 years now.
+              In early 2022, I seized the opportunity to transition into a dual role at my job, combining my expertise 
+              as a Network Engineer with newfound skills in software development. Since then, I have been fully immersed 
+              in the world of software development, working alongside a talented team to learn and apply programming concepts. 
+              My role as a Software Developer has allowed me to contribute to several projects, mostly in C# and Python to build mock-ups 
+              and tools that help standardize our excel sheets. Our main project is no longer funded but was a database management web app
+              that would allow you to access certain tools, historic data, and build excels.
+              Moving forward, I am excited to continue growing as a Software Engineer and making impactful contributions to my team and company.
             </p>
             <p class="about-wrapper__info-text">
-              Our tech stack that we use is Angular / TypeScript for FrontEnd, SpringBoot / Java for BackEnd, Relation
-              Database / PostgreSQL, VPN is through
-              Cisco AnyConnect, Web Server is hosted on using Apache Tomcat. My goals with software is to find my
-              passion. My strongest language is C# using the .NET 6
-              framework. With that, I have made a few apps using WinForms, Console, WPF, and ASP MVC. My main goal is to
-              get in to Game Develment
-              with Unity2D or 3D. I have a huge passion for video games ranging from playing vanilla World of Warcraft
-              to current expansion,
-              up to playing Call of Duty as a semi-pro on a team. I have played other games and love all types of games
-              which motivates me towards Game Development.
+              The tech stack that we use is Angular / TypeScript for FrontEnd, SpringBoot / Java for BackEnd, Relation
+              Database / PostgreSQL, VPN is through Cisco AnyConnect, Web Server is hosted on using Apache Tomcat. 
+              My goal with software is to find my
+              passion. With that, I have made a few apps using WinForms, Console, WPF, and Python. I have also considered Game Development as
+              I have a huge passion for video games.
             </p>
             <span class="d-flex mt-3">
               <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">
@@ -103,6 +100,41 @@
     <div class="container">
       <div class="project-wrapper">
         <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">2D Map Generator for Unity</h3>
+              <div>
+                <p class="mb-4">
+                  Followed a guide on how to randomly generate a tile on a grid and expanded on that idea. With some Googling and other research, I was able to create a map generator using 2 tiles (Floor and Wall).
+                  This script will allow the floor to be randomly placed using Vector3 and then after a certain percentage of the floor is placed, the function to place the walls will run. Therfore providing you
+                  with a custom map. The grid being used has public variables so the tiles are easily swapped our and the grid size can easily be set. In this demo, the grid is 100 x 100.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+
+                  <iframe src="https://i.simmer.io/@penguinwaddle/map-generator"
+                    style=" height: 500px; width: 800px;" allowFullScreen></iframe>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
 
         <!-- Notice: each .row is a project -->
         <div class="row">
@@ -128,43 +160,8 @@
               <a rel="noreferrer" href="#!" target="_blank">
                 <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
                   class="thumbnail rounded js-tilt">
-
                   <iframe src="https://i.simmer.io/@penguinwaddle/3d-endless-runner-for-fun"
                     style=" height: 500px; width: 800px;" allowFullScreen></iframe>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /END Project -->
-
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Project Title 1</h3>
-              <div>
-                <p class="mb-4">
-                  Demonstrate in this description the skills of a programmer: such as having commitment,
-                  having perseverance and accepting alternative solutions. Remember that being a portfolio you are not
-                  selling the project,
-                  you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/project.jpg" />
                 </div>
               </a>
             </div>
@@ -271,11 +268,10 @@
   <!-- **** Contact Section **** -->
   <section id="contact">
     <div class="container">
-      <h2 class="section-title">Contact</h2>
+      <h2 class="section-title">Contact Me!</h2>
       <div class="contact-wrapper load-hidden">
-        <p class="contact-wrapper__text">Cell: (321)339-9415</p>
         <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-          href="mailto:mitchchambers1117@yahoo.com">Call to Action</a>
+          href="mailto:mitchchambers1117@yahoo.com">Click to Email Me</a>
       </div>
     </div>
   </section>
